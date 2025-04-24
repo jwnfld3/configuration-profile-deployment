@@ -98,13 +98,15 @@ This final review allows validation of all selections. Once confirmed, creating 
 
 ---
 
-### Step 6: Monitor Profile Deployment
-Navigate to:  
-Devices > Configuration profiles  
-Select the new profile → View **Device status** or **Per-setting status**
+### Step 6: Verify Settings on a Target Device
+On a Windows device targeted by the profile:
+1. Open **Settings > Accounts > Access work or school**, and click the connected work account.
+2. Select **Info** and click **Sync** to force a policy update.
+3. Open **OneDrive** and confirm it is signed in automatically with the work account.
+4. Open **Control Panel > BitLocker Drive Encryption** and confirm BitLocker is turned on.
 
-**Explanation:**  
-Monitoring the deployment status ensures the policy is successfully applied. It provides visibility into success rates and helps identify and resolve issues on specific devices if needed.
+**Explanation:**
+This step confirms that the assigned settings are functioning as intended on an actual endpoint. Verifying on a live device provides assurance that the configuration profile is effective and properly enforced.
 
 ---
 
