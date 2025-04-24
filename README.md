@@ -101,8 +101,20 @@ This final review allows validation of all selections. Once confirmed, creating 
 ### Step 6: Verify Settings on a Target Device
 On a Windows device targeted by the profile:
 1. Open **Settings > Accounts > Access work or school**, and click the connected work account.
-2. Select **Info** and click **Sync** to force a policy update.
-3. Open **OneDrive** and confirm it is signed in automatically with the work account.
+
+![image](https://github.com/user-attachments/assets/accb352b-ac7c-4fa3-bbc3-18353a0e168c)
+![image](https://github.com/user-attachments/assets/970389e0-6a0c-4200-9a5d-a781a27fcd0d)
+
+2. Click on the **Connected by** and Select **Info** and click **Sync** to force a policy update.
+
+![image](https://github.com/user-attachments/assets/8b6b461f-3bd0-49f0-9a19-7dc116abb5f1)
+![image](https://github.com/user-attachments/assets/59feff6b-4bf7-497f-90cb-d55c8084c14a)
+
+3. Restart the computer and **OneDrive** will sign in automatically with the work account.
+
+![image](https://github.com/user-attachments/assets/971c1d89-3d4a-4a4d-b008-a101155b05b9)
+![image](https://github.com/user-attachments/assets/b6c8d231-3baa-4609-b387-93e946ba85b7)
+
 4. Open **Control Panel > BitLocker Drive Encryption** and confirm BitLocker is turned on.
 
 **Explanation:**
