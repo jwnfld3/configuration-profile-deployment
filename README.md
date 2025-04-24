@@ -10,7 +10,7 @@ This lab demonstrates how to create a configuration profile in Intune using the 
 Desktop Engineers at a national consulting firm responsible for Windows laptop provisioning.
 
 **What:**  
-A configuration profile will be created to enforce OneDrive automatic sign-in and ensure BitLocker encryption is enabled.
+A configuration profile will be created to enforce OneDrive automatic sign-in is enabled.
 
 **Where:**  
 Microsoft Intune Admin Center → Devices → Configuration profiles.
@@ -53,25 +53,15 @@ This initiates the configuration process. The selected platform and profile type
 
 ### Step 3: Define Profile Settings
 Name the profile:  
-Baseline - OneDrive & BitLocker  
+Baseline - OneDrive
 Click **Next**, then **+ Add settings**  
 
-![image](https://github.com/user-attachments/assets/3f084296-17d8-47a9-90ee-bbae2b8b099e)
-
+![image](https://github.com/user-attachments/assets/ef15e00b-9aa7-4dec-b338-6f257cd1872b)
 
 Search for and add:
 - **OneDrive > Silently sign in users to the OneDrive sync app with their Windows credentials** → Enabled  
 
 ![image](https://github.com/user-attachments/assets/d1875b88-0004-46ca-a84e-04083d01e697)
-
-- **BitLocker > Require BitLocker** → Enabled  
-Click **Next**
-
-**Explanation:**  
-Naming the profile helps in future identification. The settings selected enforce OneDrive auto sign-in and BitLocker encryption—critical for file synchronization and data protection. These policies help standardize and secure device behavior across the organization.
-
-![image](https://github.com/user-attachments/assets/4e7b0527-235b-4878-8269-4c1d24fbce51)
-![image](https://github.com/user-attachments/assets/c3aa3bb4-3a4e-42e5-a618-f88a101a5653)
 
 ---
 
@@ -115,12 +105,8 @@ On a Windows device targeted by the profile:
 ![image](https://github.com/user-attachments/assets/971c1d89-3d4a-4a4d-b008-a101155b05b9)
 ![image](https://github.com/user-attachments/assets/b6c8d231-3baa-4609-b387-93e946ba85b7)
 
-4. Open **Control Panel > BitLocker Drive Encryption** and confirm BitLocker is turned on.
-
-**Explanation:**
-This step confirms that the assigned settings are functioning as intended on an actual endpoint. Verifying on a live device provides assurance that the configuration profile is effective and properly enforced.
 
 ---
 
 ## Conclusion
-This configuration profile automatically enforces OneDrive login and BitLocker encryption, supporting secure and consistent Windows device deployments. Configuration profiles eliminate the need for manual registry edits or Group Policy changes, allowing scalable enforcement of key settings through Microsoft Intune.
+This configuration profile automatically enforces OneDrive login supporting secure and consistent Windows device deployments. Configuration profiles eliminate the need for manual registry edits or Group Policy changes, allowing scalable enforcement of key settings through Microsoft Intune.
