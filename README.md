@@ -1,5 +1,5 @@
 
-# Create and Deploy a Configuration Profile for Windows Devices
+# Microsoft Intune Configuration Profile Deployment
 
 ## Overview
 This lab demonstrates how to create a configuration profile in Intune using the Settings Catalog to deploy settings such as OneDrive automatic sign-in or desktop wallpaper enforcement. Configuration profiles allow IT teams to define and enforce system settings across all managed Windows endpoints.
